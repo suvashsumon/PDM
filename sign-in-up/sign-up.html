@@ -13,13 +13,13 @@
               
           
               <!-- Login Form -->
-              <form>
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="name">
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="e-mail">
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="phone no">
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
-                <input type="text" id="password" class="fadeIn third" name="login" placeholder="create password">
-                <input type="text" id="password" class="fadeIn third" name="login" placeholder="re-type password">
+              <form action="register.php" method="post">
+                <input type="text" id="login" class="fadeIn second" name="name" placeholder="Name" required>
+                <input type="text" id="login" class="fadeIn second" name="email" placeholder="E-mail" required>
+                <input type="text" id="login" class="fadeIn second" name="phoneno" placeholder="Phone No" required>
+                <input type="text" id="login" class="fadeIn second" name="username" placeholder="Username" required>
+                <input type="text" id="password" class="fadeIn third" name="pass" placeholder="Create Password" required>
+                <input type="text" id="password" class="fadeIn third" name="repass" placeholder="Re-type Password" required>
                 <input type="submit" class="fadeIn fourth" value="Sign Up">
               </form>
           
